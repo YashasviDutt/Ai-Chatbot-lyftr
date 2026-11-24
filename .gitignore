@@ -1,0 +1,32 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Node.js
+node_modules/
+dist/
+
+# Python
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
+venv/
+
+# Database and cache
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+cache/
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
